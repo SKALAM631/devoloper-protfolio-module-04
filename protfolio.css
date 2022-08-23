@@ -1,0 +1,139 @@
+body {
+    background-color: rgb(214, 224, 222);
+    font-family: 'Poppins', sans-serif;
+    margin: 0 auto;
+    width: 960px;
+
+}
+
+/* 1st h1  */
+.first-head {
+    color: rgb(12, 16, 236);
+
+}
+
+/* 2nd h1  */
+.goolden {
+    color: rgb(255, 184, 4);
+}
+
+h1 {
+    font-size: 30px;
+}
+
+.orange {
+    color: orange;
+}
+
+
+.felxible-container {
+    display: flex;
+    /* margin-bottom: 50px; */
+
+}
+
+.haf-with {
+    width: 50%;
+    padding-left: 2%;
+}
+
+.haf-with img {
+    width: 80%;
+}
+
+/* button  here me */
+.button {
+    text-decoration: none;
+
+    /* background-color: brown; */
+    background-image: linear-gradient(orange, tomato, rgb(247, 139, 16));
+    color: whitesmoke;
+    font-weight: 900;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 5px 40px;
+    border: 2px solid olivedrab;
+    border-radius: 25%;
+}
+
+.top-bannar {
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+    /* display: flex; */
+    /* margin-bottom: 100px; */
+    padding: 2%;
+    border-radius: 5%;
+}
+
+/* DREM section */
+
+.drem-big {
+    background-image: url(images/dream-bg.png);
+    background-position-x: center;
+    background-repeat: no-repeat;
+}
+
+.drem-big {
+    border: 5px solid olivedrab;
+    border-radius: 5% 20%;
+    background-color: rgb(10, 85, 119);
+    margin: 20px;
+    padding: 20px;
+    margin-top: 50px;
+    /* box-shadow: 50px 50px 80px gray; */
+}
+
+
+/* exprinces area */
+.ex-heder {
+    color: rgba(243, 161, 10, 0.945);
+}
+
+.Experiences {
+    background-image: url(images/exp-bg.png);
+    background-position: left;
+    background-repeat: no-repeat;
+    background-color: bisque;
+    border-radius: 10%;
+    border: 5px solid olive;
+    margin-top: 30px;
+}
+
+
+.orange-color {
+    color: orangered;
+    background-color: whitesmoke;
+    text-align: center;
+    border-radius: 10%;
+}
+
+.blue-color {
+    color: rgb(8, 8, 253);
+}
+
+.ex-pragraph {
+    color: brown;
+}
+
+.experince-item {
+    width: 40%;
+    box-shadow: 50px 50px 110px rgb(153, 146, 146);
+    margin: 5%;
+    margin-left: 5%;
+    padding: 5%;
+    border-left: 7px solid rgb(40, 2, 255);
+    border-radius: 10%;
+}
+
+#ex-bdr {
+    border-left: 7px solid orangered;
+    border-radius: 15%;
+}
+
+footer {
+    text-align: center;
+    color: rgb(22, 7, 241);
+    background-color: white;
+    border-radius: 10%;
+    border: 2% solid olive;
+    margin-top: 2%;
+}
